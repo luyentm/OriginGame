@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="40" height="24" tilewidth="32" tileheight="32" nextobjectid="58">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32">
+  <image source="terrain.png" trans="aaaa7f" width="512" height="512"/>
+ </tileset>
+ <layer name="map" width="40" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1zENADAMA0FTC5vyR1AIWSrl1fzw+412JSl4B5q+Nz6qUZ8+fb1v2qFPHzF9O3xEI3lHk7c++Y9M/7Afu8QoaWw=
+  </data>
+ </layer>
+ <objectgroup name="peace"/>
+ <objectgroup name="wall">
+  <object id="34" x="4" y="708" width="1272" height="52"/>
+  <object id="35" x="1120" y="674" width="154" height="26"/>
+  <object id="36" x="1150" y="640" width="130" height="30"/>
+  <object id="37" x="1186" y="604" width="90" height="32"/>
+  <object id="38" x="1214" y="580" width="28" height="22"/>
+  <object id="39" x="1250" y="2" width="28" height="598"/>
+  <object id="40" x="-2" y="2" width="32" height="698"/>
+  <object id="41" x="32" y="578" width="32" height="122"/>
+  <object id="42" x="66" y="604" width="32" height="102"/>
+  <object id="43" x="98" y="636" width="28" height="76"/>
+  <object id="44" x="132" y="678" width="22" height="22"/>
+  <object id="45" x="32" y="130" width="32" height="190"/>
+  <object id="49" x="36" y="4" width="1210" height="30"/>
+  <object id="50" x="506" y="612" width="212" height="166">
+   <ellipse/>
+  </object>
+  <object id="52" x="406" y="536">
+   <polygon points="0,0 238,-280 496,-18"/>
+  </object>
+  <object id="53" x="948" y="252">
+   <polyline points="0,0 176,-94 172,102 48,222 -78,108"/>
+  </object>
+  <object id="54" x="226" y="532">
+   <polyline points="0,0 154,-68"/>
+  </object>
+  <object id="55" x="188" y="228" width="186" height="44"/>
+  <object id="56" x="242" y="656" width="114" height="32"/>
+  <object id="57" x="1248" y="882"/>
+ </objectgroup>
+ <objectgroup name="item"/>
+</map>
